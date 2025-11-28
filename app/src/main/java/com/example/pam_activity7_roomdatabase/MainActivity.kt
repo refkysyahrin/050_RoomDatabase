@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             PAM_Activity7_RoomDatabaseTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    SiswaApp(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
